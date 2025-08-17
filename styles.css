@@ -1,0 +1,43 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Header */
+#header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #2c3e50;
+}
+
+/* Section boxes using the Box Model */
+.box {
+  background: white;
+  margin: 20px;        /* space outside (margin) */
+  padding: 15px;       /* space inside (padding) */
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2 {
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #2c3e50;
+  color: white;
+  margin-top: 30px;
+}
